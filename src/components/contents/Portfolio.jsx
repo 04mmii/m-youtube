@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Portfolio = () => {
   return (
     <section id='website'>
-      <h2>😛 웹표준 사이트 만들기 기초 다지기</h2>
+      <h2>🤗 포트폴리오 만드는 방법을 공유합니다</h2>
       <div className="video__inner">
         {portfolioText.map((video, key)=> (
           <div className="video" key={key}>
